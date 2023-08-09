@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    /* text-align: center; */
+    height: fit-content;
+    width: 100%;
+}
+.heading_part{
+    text-align: center;
+    background-color: rgb(192, 168, 168);
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+.middle_part{
+    background-color: aquamarine;
+    box-shadow:  10px 10px green, 15px 15px 15px yellow;
+}
+.middle_part h1{
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.arrowlogo{
+    height: 20px;
+}
+.box{
+    margin: 2%;
+}
+.heading_part .box h3{
+    color: rgb(255, 0, 81);
+}
+.all_one_line{
+    /* border: 2px solid salmon; */
+    
+    margin: 15px;
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+}
+.heading_part h3{
+    color: rgb(255, 0, 81); 
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+.heading_part h1{
+    padding: 20px;
+}
